@@ -11,7 +11,8 @@ variable "budget_description" {
 }
 
 variable "monthly_cost_limit_in_usd" {
-  type = number
+  type    = number
+  default = 0.6
 }
 
 variable "subscriber_email_address" {
